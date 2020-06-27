@@ -15,11 +15,11 @@ The same equation is used for both models
 
 # Linear regression
 
-The hypothesis function used for linear regression:
+The hypothesis function for linear regression:
 
 	hθ(x) = θ(transpose) * X = θ0 + θ1 * X1 + θ2 * X2 + ..... + θn * Xn
 
-The loss functions used for linear regression:
+The loss functions for linear regression:
 mean squared error:
 
 	J(θ) = 1/2*m * sum[hθ((x(i)) − y(i))^2]
@@ -30,13 +30,13 @@ mean squared error:
 
 # Logistic regression
 
-The hypothesis function used for logistic regression:
+The hypothesis function for logistic regression:
 	
 	hθ(x) = g(θ(transpose) * X)
 	
 	g(z) = 1 / (1 + e^-z)
 
-The loss function used for logistic regression:
+The loss function for logistic regression:
 	
 	J(θ) = 1/m * sum[(−y(i) * log(hθ(x(i)))) − ((1 − y(i)) log(1 − hθ(x(i))))]
 
