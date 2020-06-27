@@ -53,7 +53,7 @@ x(i)(j) : X super i, sub j.
 
 ## Requirements 
 
-These models has been tested and developed using the following libraries: 
+These models have been tested and developed using the following libraries: 
 
     - python==3.8.2
     - numpy==1.13.3
