@@ -19,8 +19,7 @@ The hypothesis function for linear regression:
 
 	hθ(x) = θ(transpose) * X = θ0 + θ1 * X1 + θ2 * X2 + ..... + θn * Xn
 
-The loss functions for linear regression:
-mean squared error:
+The loss functions for linear regression (mean squared error):
 
 	J(θ) = 1/2*m * sum[hθ((x(i)) − y(i))^2]
 
