@@ -94,7 +94,6 @@ def plot_data(data):
 
 
 def main():
-    # Load the data
     data = np.loadtxt('Data/ex2data1.txt', delimiter=',')
     # Split the data and get our features and our target
     X, y = data[:, :2], data[:, 2]
