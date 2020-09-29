@@ -58,7 +58,6 @@ def gradient_descent(theta, X, y, m, n, alpha, iterations):
     return theta
 
 
-
 def lossFunction(theta, X, y):
     """Computing the cost and how good our model was."""
     m = y.size
