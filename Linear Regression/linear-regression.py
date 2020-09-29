@@ -79,7 +79,6 @@ def first_plot(X, y):
 
 
 def main():
-    # Load the data
     data = np.loadtxt('Data/ex1data1.txt', delimiter=',')
     # Split the data and get our features and our target
     X, y = data[:, 0], data[:, 1]
@@ -97,7 +96,6 @@ def main():
     alpha = 0.01
     iterations = 1500
     th, jh = gradientDescent(X, y, theta, alpha, iterations)
-    # Display the results
     print("Gradient Descent: ", th)
     final_plot(th, X, y)
     fls = lossFunction(X, y, th)
@@ -105,5 +103,6 @@ def main():
 
 
 if __name__ == '__main__':
+    
     plt.style.use('ggplot')
     main()
