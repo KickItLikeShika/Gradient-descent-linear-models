@@ -1,6 +1,6 @@
 # Regression and Classification with Gradient Descent
 
-This repository contains the python implementation of two machine learning algorithms (Linear regression, Logistic regression) using gradient descent (optimization algorithm used in machine learning).
+This repository contains the python implementation of two   machine learning algorithms (Linear regression, Logistic regression) using gradient descent (optimization algorithm used in machine learning).
 
 And the data is form Machine learning stanford course on coursera (by Andrew ng).
 
