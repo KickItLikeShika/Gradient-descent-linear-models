@@ -2,7 +2,7 @@
 
 This repository contains the python implementation of two machine learning algorithms (Linear regression, Logistic regression) using gradient descent (optimization algorithm used in machine learning).
 
-And the data is form Machine learning stanford course on coursera (by Andrew ng). 
+And the data is form Machine learning stanford course on coursera (by Andrew ng).
 
 # Gradient Descent mathematically
 
